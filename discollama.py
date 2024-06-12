@@ -57,7 +57,7 @@ class Discollama:
     self.discord.event(self.on_message)
 
   async def on_ready(self):
-    activity = discord.Activity(name='Discollama', state='Ask me anything!', type=discord.ActivityType.custom)
+    activity = discord.Activity(name='DavidGoggins', state='Ask me anything!', type=discord.ActivityType.custom)
     await self.discord.change_presence(activity=activity)
 
     logging.info(
